@@ -1,0 +1,12 @@
+{
+  "name": "curriculumvitae",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "gitolite@antoine-roux.tk:documents/curriculumVitae.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
