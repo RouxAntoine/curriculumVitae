@@ -76,7 +76,7 @@ blockquote p::after {
 
 .version {
     text-align: right;
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 body {
