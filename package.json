@@ -8,7 +8,7 @@
     "url": "gitolite@antoine-roux.tk:documents/curriculumVitae.git"
   },
   "scripts": {
-    "live": "light-server -s . -w index.html,custom.css"
+    "live": "light-server -s . -w index*.html,custom.css"
   },
   "author": "",
   "license": "ISC",
