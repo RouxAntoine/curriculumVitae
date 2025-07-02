@@ -8,11 +8,35 @@
     "url": "gitolite@antoine-roux.tk:documents/curriculumVitae.git"
   },
   "scripts": {
-    "live": "light-server -s . -w index*.html,custom.css"
+    "live": "light-server -s . -w index*.html,custom.css",
+    "copy": "copy-files-from-to"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "copy-files-from-to": "^3.12.1",
     "light-server": "^2.9.1"
-  }
+  },
+  "copyFiles": [
+      {
+        "from": "index_en.html",
+        "to": "docs/index.html"
+      },
+      {
+        "from": "custom.css",
+        "to": "docs/custom.css"
+      },
+      {
+        "from": "cvicon.ico",
+        "to": "docs/cvicon.ico"
+      },
+      {
+        "from": "phone.png",
+        "to": "docs/phone.png"
+      },
+      {
+        "from": "icons",
+        "to": "docs/"
+      }
+  ]
 }
